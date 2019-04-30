@@ -1,0 +1,88 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "max-len": [
+      2,
+      120,
+      4,
+      {
+        "ignoreUrls": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "func-names": 0,
+    "camelcase": 0,
+    "semi": [
+      "error",
+      "always"
+    ],
+    "react/destructuring-assignment": [
+      0,
+      "always",
+      {
+        "ignoreClassFields": true
+      }
+    ],
+    "react/forbid-prop-types": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/jsx-closing-bracket-location": 0,
+    "jsx-a11y/role-has-required-aria-props": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "sx-a11y/anchor-has-content": 0,
+    "jsx-a11y/anchor-has-content": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "components": [
+          "label"
+        ],
+        "required": {
+          "every": [
+            "id"
+          ]
+        },
+        "allowChildren": false
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "globals": {
+    "$": true,
+    "xsrf_token": true
+  }
+}

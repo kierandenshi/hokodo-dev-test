@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should match snapshot 1`] = `
+<styled.img
+  size="thumbnail"
+  src="http://image.url"
+/>
+`;

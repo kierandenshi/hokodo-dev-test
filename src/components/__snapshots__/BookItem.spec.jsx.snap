@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should match snapshot 1`] = `
+<styled.div>
+  <BookCover
+    imageUrl="http://coverimage.url"
+    size="thumbnail"
+  />
+  <div
+    className="details"
+  >
+    <div
+      className="title"
+    >
+      Really Good Book
+    </div>
+    <div
+      className="author"
+    >
+      Mr. John Doe
+    </div>
+    <Styled(Link)
+      to="/book1"
+    >
+      More information
+    </Styled(Link)>
+  </div>
+</styled.div>
+`;

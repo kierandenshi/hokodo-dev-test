@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <BookCover
+      imageUrl="http://coverimage.url"
+      size="full"
+    />
+    <div
+      className="title"
+    >
+      Really Good Book
+    </div>
+    <div
+      className="author"
+    >
+      Mr. John Doe
+    </div>
+    <div
+      className="isbn"
+    >
+      ISBN: 1234
+    </div>
+  </styled.div>
+  <Styled(Link)
+    to="/"
+  >
+    Back to full book list
+  </Styled(Link)>
+</Fragment>
+`;
+
+exports[`Component should match snapshot 2`] = `
+<Fragment>
+  <styled.div>
+    <BookCover
+      imageUrl="https://lorempixel.com/640/480/?84662"
+      size="full"
+    />
+    <div
+      className="title"
+    >
+      Schuster Champlinborough
+    </div>
+    <div
+      className="author"
+    >
+      Prof. John Doe
+    </div>
+    <div
+      className="isbn"
+    >
+      ISBN: 1441614311
+    </div>
+  </styled.div>
+  <div>
+    More by this author:
+  </div>
+  <BookList
+    books={
+      Array [
+        Object {
+          "author": Object {
+            "id": "author2",
+            "name": "Prof. John Doe",
+          },
+          "cover": "https://lorempixel.com/640/480/?28970",
+          "id": "book3",
+          "isbn": "0779284704",
+          "name": "Okuneva MarianoVille",
+          "published_at": "2017-06-30",
+        },
+      ]
+    }
+  />
+  <Styled(Link)
+    to="/"
+  >
+    Back to full book list
+  </Styled(Link)>
+</Fragment>
+`;

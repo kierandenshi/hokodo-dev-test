@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+*.log.*
+env
+node_modules
+dist
+build
+public
+docs
+reports
+coverage
+screenshots
+.nyc_output
+.env
+.idea
+stats.json
+.vscode
